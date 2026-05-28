@@ -1,0 +1,29 @@
+# macOS / iCloud
+.DS_Store
+
+# Word temporary lock files
+~$*
+
+# Local DOCX backups created during formatting fixes
+*.before-*.docx
+*.broken-*.docx
+
+# Submission is PDF-first; keep editable Word files local.
+submission/**/*.docx
+
+# Local work and source material not intended for submission
+Cases/
+Shareplace/
+LEGACY/
+
+# Root-level documents are working material. Final deliverables live in submission/.
+/*.docx
+/*.pdf
+/*.jpeg
+/*.jpg
+/*.png
+
+# Local dependency/cache folders
+.codex-pydeps/
+
+# Only submission deliverables should be committed from this workspace.
