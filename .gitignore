@@ -26,4 +26,4 @@ LEGACY/
 # Local dependency/cache folders
 .codex-pydeps/
 
-# Only submission deliverables should be committed from this workspace.
+# Only submission deliverables should be committed from this workspace. Readme & gitignore were created by OpenAi Codex 5-GPT.
